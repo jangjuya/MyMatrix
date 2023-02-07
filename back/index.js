@@ -8,7 +8,7 @@ const app = express();
 const port = 3000;
 
 // 정적파일 제공
-app.use(express.static("front"));
+app.use(express.static(front));
 
 app.use(cors());
 
